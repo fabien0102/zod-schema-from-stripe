@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "gen:specs": "openapi-codgen gen stripe",
-    "gen:zod": "ts-to-zod src/stripe/stripeSchemas.ts src/stripe/stripeSchemas.zod.ts"
+    "gen:zod": "ts-to-zod"
   },
   "keywords": [],
   "author": "Fabien BERNARD",
