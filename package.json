@@ -1,0 +1,19 @@
+{
+  "name": "stripe-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gen:specs": "openapi-codgen gen stripe",
+    "gen:zod": "ts-to-zod src/stripe/stripeSchemas.ts src/stripe/stripeSchemas.zod.ts"
+  },
+  "keywords": [],
+  "author": "Fabien BERNARD",
+  "license": "ISC",
+  "dependencies": {
+    "@openapi-codegen/cli": "^1.4.1",
+    "@openapi-codegen/typescript": "^3.0.1",
+    "ts-to-zod": "^1.10.0",
+    "zod": "^3.14.2"
+  }
+}
